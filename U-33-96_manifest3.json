@@ -1,6 +1,6 @@
 {
   "@context" : "http://iiif.io/api/presentation/2/context.json",
-  "@id" : "https://mlb-gh.github.io/IIIF_test_v03/manifests/U-33-96_manifest3.json",
+  "@id" : "https://mlb-gh.github.io/IIIF_test_v04/U-33-96_manifest3.json",
   "@type" : "sc:Manifest",
   "label" : "University of Nottingham Museum U.33.96",
   "metadata" : [
@@ -73,12 +73,12 @@
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
-          "@id" : "https://mlb-gh.github.io/IIIF_test_v2/images/25-75288m_UoN_Museum_U-33-96/full/full/0/default.jpg",
+          "@id" : "https://mlb-gh.github.io/IIIF_test_v4/25-75288m_UoN_Museum_U-33-96/full/full/0/default.jpg",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg",
           "service" : {
             "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://mlb-gh.github.io/IIIF_test_v2/images/25-75288m_UoN_Museum_U-33-96",
+            "@id" : "https://mlb-gh.github.io/IIIF_test_v4/25-75288m_UoN_Museum_U-33-96",
             "profile" : "http://iiif.io/api/image/2/level0.json"
           },
           "height" : 5000,
