@@ -1,0 +1,93 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://mlb-gh.github.io/IIIF_test_v03/manifests/U-33-96_manifest3.json",
+  "@type" : "sc:Manifest",
+  "label" : "University of Nottingham Museum U.33.96",
+  "metadata" : [
+        {
+            "label": "Title",
+            "value": "Sherd of a mould decorated samian pottery bowl."
+        },
+        {
+            "label": "Rights",
+            "value": "Images can be used for research for a non-commercial purpose or private study. Please contact Manuscripts and Special Collections if you require permission to publish or use an image for any other purpose."
+        },
+        {
+            "label": "Contributor",
+            "value": "The University of Nottingham"
+        },
+        {
+            "label": "Description",
+            "value": "sherd of a mould decorated samian pottery bowl (Dragendorff form 30) preserved from the rim to the wall. The sherd shows an ovolo band above a decorated frieze, with no boundary seperating them. The frieze depicts, from left to right, the wings of a Victory facing left and Pudicitia, also facing left, set within an arcade supported by beaded rows. Just below the ovolo band, the capsized moulded maker's mark of Masclus I si shown, divided into groups of letters. Possibly found in London, Greater London. Produced at La Graufesenque, Southern France, during the Roman period (35-65 AD)."
+        },
+        {
+            "label": "Relation",
+            "value": "University of Nottingham Museum"
+        },
+        {
+            "label": "Source",
+            "value": "U.33.96"
+        },
+        {
+            "label": "Subject",
+            "value": [
+                "Terra sigillata",
+                "Samian ware",
+                "Pottery",
+                "Roman period"
+            ]
+        },
+        {
+            "label": "Type",
+            "value": "Image"
+        },
+        {
+            "label": "Format",
+            "value": [
+                "Photo"
+            ]
+        }
+  ],
+  "description" : [ {
+    "@value" : "Sherd of a mould decorated samian pottery bowl.",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Images can be used for research for a non-commercial purpose or private study. Please contact Manuscripts and Special Collections if you require permission to publish or use an image for any other purpose.",
+  "sequences" : [ {
+    "@id" : "http://aaff0f8c-8cb8-4264-aec4-7df183cf3725",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://d42a8c9a-26b0-4dbd-be1e-54ecbbfa53b8",
+      "@type" : "sc:Canvas",
+      "label" : "U.33.96",
+      "height" : 5000,
+      "width" : 3749,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://92619ebf-c14d-4d53-a6d8-df7d645d859c",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://mlb-gh.github.io/IIIF_test_v2/images/25-75288m_UoN_Museum_U-33-96/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://mlb-gh.github.io/IIIF_test_v2/images/25-75288m_UoN_Museum_U-33-96",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 5000,
+          "width" : 3749
+        },
+        "on" : "http://d42a8c9a-26b0-4dbd-be1e-54ecbbfa53b8"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
